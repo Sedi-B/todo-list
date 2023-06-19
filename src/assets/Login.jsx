@@ -55,7 +55,7 @@ const Login = () => {
       </form>
       
      <Link to={"/"}><button className='btnLink'>Back</button></Link>
- 
+     <footer> @Phoshoko RR</footer>
     </div>
   );
 };

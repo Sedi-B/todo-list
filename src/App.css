@@ -1,5 +1,5 @@
 .App{
- background-color: rgb(94, 90, 86); 
+
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -8,9 +8,14 @@
   align-items: center;
   color: #fff;
 }
-
+header{
+    text-align: left;
+    color: rgb(252, 179, 179);
+ 
+}
 form {
   width: 350px;
+ 
 }
 
 input {
@@ -21,7 +26,18 @@ input {
   border-radius: 25px;
   display: block;
 }
-
+.todo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.todo h2{
+  padding-top: 10%;
+  font-style: normal;
+ 
+}
 label {
   padding: 0 5px;
   /* margin: 10px; */
@@ -36,37 +52,35 @@ button {
   background-color: transparent;
 }
 .Account{
-  color: #e6e1e1;
-  background-color: rgb(94, 90, 86); 
+  color: white;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 100vw;
   height: 100vh;
 
 }
 .home{
-background-image:url('./assets/todo.jpg');
-background-repeat: no-repeat;
-background-size: cover;
-width: 100vw;
-height: 100vh;
+  background-image: url('./assets/todo.jpg');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
 
 .homepage h1{
-  color: rgb(15, 50, 145);
+  color:snow;
   text-decoration: solid;
-   text-align: center;
+  text-align: center;
   justify-content: center;
   border: 0px solid #282c22;
-  padding: 200px;
-}
-.tasks{
-
-  color: #e6e1e1;
-  background-color: rgb(94, 90, 86); 
-  width: 100vw;
-height: 100vh;
+  padding: 100px;
 }
 
+
+select{
+  justify-content: center;
+}
 .links {
 
   display: inline-block;
@@ -78,23 +92,37 @@ height: 100vh;
   text-align: center;
   
 }
-.searchbar{
-  width: 40%;
+.Search-bar{
+  width: 18%;
 }
 .btn {
   
   justify-content: center;
-  padding: 10px ;
+  display: inline;
+  padding: 5px ;
   color: #fff;
-  border: 2px solid burlywood ;
-  padding: 10px;
+  border: 1px solid burlywood ;
   border-radius: 25px;
-  width: 15%;
-  margin: 0;
+  margin: 0 10px;
 
 }
+
+ul  {
+  width: 350px;
+}
+li {
+  display: flex;
+  color: white;
+  justify-items: center;
+  align-items: center;
+  
+}
+
+li * {
+  margin: 0 5px;
+}
 .btnLink{
- text-size-adjust:inherit;
+
 width: 1.5cm;
 height: 1cm;
 }
@@ -103,7 +131,7 @@ height: 1cm;
   display: inline-block;
   width: 10px;
   height: 10px;
-  margin-right: 5px;
+  margin-right: 0px;
 }
 
 .high {
@@ -124,4 +152,5 @@ footer{
   width: 100%;
   height: 60px; 
   background:transparent;
+  color:black;
 }

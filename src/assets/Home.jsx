@@ -6,8 +6,11 @@ const Home = () => {
 
   return (
    <div className='homepage'>
+    <header> 
+      @Sedi-Do
+    </header>
 <h1> 
-
+Welcome to the TO DO LIST application
 </h1>
    <ul className='links'>  
   <Link to={"/login"}><button>Login</button></Link>

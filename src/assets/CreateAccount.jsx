@@ -40,6 +40,7 @@ const CreateAccount = () => {
           <label>Full Names:</label>
           <input
             type="text"
+            placeholder='Names and surname'
             value={name}
             onChange={handleNameChange}
             required
@@ -49,6 +50,7 @@ const CreateAccount = () => {
           <label>Email:</label>
           <input
             type="email"
+            placeholder='E-mail addresss'
             value={email}
             onChange={handleEmailChange}
             required
@@ -58,6 +60,7 @@ const CreateAccount = () => {
           <label>Password:</label>
           <input
             type="password"
+            placeholder='Password'
             value={password}
             onChange={handlePasswordChange}
             required
@@ -74,7 +77,7 @@ const CreateAccount = () => {
    
      
       </>
-       
+      <footer> @Phoshoko RR</footer>
     </div>
   );
 };
